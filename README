@@ -1,0 +1,12 @@
+== Pickle Example
+
+This is a very basic and contrived example designed to demonstrate the benefits of using Ian White's "Pickle gem":http://github.com/ianwhite/pickle with Cucumber to improve the way you BDD.
+
+== Getting Started
+
+1. rake gems:install
+2. rake db:migrate
+3. rake db:test:prepare
+4. cucumber
+
+For more information see "Pickle my Cucumber!":http://rubyflare.com/2009/10/28/pickle-my-cucumber

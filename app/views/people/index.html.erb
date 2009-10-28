@@ -1,0 +1,12 @@
+<h1>Listing people</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% @people.each do |person| %>
+  <tr>
+    <td><%= link_to 'Show', person %></td>
+  </tr>
+<% end %>
+</table>

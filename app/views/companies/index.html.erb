@@ -1,0 +1,14 @@
+<h1>Listing companies</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+
+<% @companies.each do |company| %>
+  <tr>
+    <td><%=h company.name %></td>
+    <td><%= link_to 'Show', company %></td>
+  </tr>
+<% end %>
+</table>
