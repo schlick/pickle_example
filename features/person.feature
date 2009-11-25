@@ -16,7 +16,7 @@ Feature: Pickle demonstration with Person objects
     Given a company exists
     And another company: "rubyflare" exists 
     And a person exists with company: company "rubyflare"
-    And another person exists with company: the company
+    And another person exists with company: the first company
     Then the first person should be one of company: "rubyflare"'s employees
     
   Scenario: email
